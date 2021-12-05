@@ -100,6 +100,9 @@ def calculate_doc_norms():
 
 
 def process_queries(length, label):
+    if not os.path.exists('results'):
+        os.makedirs('results')
+
     ctm = current_milli_time()
     filename = f'results/results_{label}_{ctm}.txt'
 
