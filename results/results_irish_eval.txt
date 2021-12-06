@@ -1,0 +1,46 @@
+31 of the 50 queries (=62.0%) have the same top result
+the query 245 is not an exact match in english & irish
+For Query 891 there are 818 same retrieval results
+For Query 1217 there are 868 same retrieval results
+For Query 1741 there are 922 same retrieval results
+For Query 2405 there are 804 same retrieval results
+the query 3777 is not an exact match in english & irish
+For Query 4233 there are 728 same retrieval results
+For Query 5899 there are 949 same retrieval results
+For Query 6324 there are 858 same retrieval results
+For Query 7328 there are 469 same retrieval results
+For Query 8141 there are 787 same retrieval results
+For Query 9125 there are 929 same retrieval results
+For Query 10637 there are 568 same retrieval results
+For Query 10893 there are 737 same retrieval results
+For Query 11961 there are 777 same retrieval results
+For Query 13280 there are 841 same retrieval results
+For Query 14000 there are 858 same retrieval results
+For Query 14536 there are 644 same retrieval results
+For Query 15349 there are 388 same retrieval results
+For Query 15842 there are 904 same retrieval results
+the query 18179 is not an exact match in english & irish
+For Query 19982 there are 696 same retrieval results
+For Query 21083 there are 838 same retrieval results
+For Query 21265 there are 899 same retrieval results
+For Query 21278 there are 911 same retrieval results
+For Query 22423 there are 710 same retrieval results
+the query 22698 is not an exact match in english & irish
+For Query 23242 there are 736 same retrieval results
+For Query 24081 there are 954 same retrieval results
+the query 24894 is not an exact match in english & irish
+For Query 25733 there are 638 same retrieval results
+For Query 28098 there are 973 same retrieval results
+For Query 30535 there are 784 same retrieval results
+For Query 33367 there are 755 same retrieval results
+For Query 35418 there are 861 same retrieval results
+For Query 35645 there are 721 same retrieval results
+the query 35727 is not an exact match in english & irish
+For Query 37202 there are 690 same retrieval results
+For Query 37294 there are 917 same retrieval results
+For Query 37511 there are 865 same retrieval results
+For Query 37845 there are 974 same retrieval results
+For Query 38367 there are 705 same retrieval results
+For Query 39228 there are 741 same retrieval results
+
+Out of 13  7 were exact matches to the Original Query and 6 were not exact matches but found the same 1000 results

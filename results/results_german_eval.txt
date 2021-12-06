@@ -1,0 +1,51 @@
+36 of the 50 queries (=72.0%) have the same top result
+For Query 245 there are 950 same retrieval results
+the query 891 is not an exact match in english & german
+For Query 1217 there are 868 same retrieval results
+For Query 1741 there are 866 same retrieval results
+For Query 2405 there are 769 same retrieval results
+the query 3777 is not an exact match in english & german
+For Query 4233 there are 788 same retrieval results
+the query 4767 is not an exact match in english & german
+For Query 5899 there are 949 same retrieval results
+For Query 6324 there are 816 same retrieval results
+the query 7328 is not an exact match in english & german
+For Query 8141 there are 715 same retrieval results
+the query 9125 is not an exact match in english & german
+the query 9983 is not an exact match in english & german
+For Query 10637 there are 857 same retrieval results
+For Query 10893 there are 708 same retrieval results
+the query 11961 is not an exact match in english & german
+For Query 13280 there are 771 same retrieval results
+For Query 14000 there are 864 same retrieval results
+For Query 14536 there are 889 same retrieval results
+For Query 15349 there are 860 same retrieval results
+For Query 15842 there are 811 same retrieval results
+the query 18179 is not an exact match in english & german
+For Query 19262 there are 957 same retrieval results
+the query 19982 is not an exact match in english & german
+the query 21083 is not an exact match in english & german
+For Query 21278 there are 864 same retrieval results
+For Query 22423 there are 644 same retrieval results
+For Query 22698 there are 978 same retrieval results
+the query 23223 is not an exact match in english & german
+For Query 23242 there are 540 same retrieval results
+the query 24081 is not an exact match in english & german
+For Query 24894 there are 743 same retrieval results
+For Query 25733 there are 719 same retrieval results
+For Query 28098 there are 859 same retrieval results
+For Query 30535 there are 885 same retrieval results
+For Query 33367 there are 658 same retrieval results
+For Query 35418 there are 834 same retrieval results
+the query 35491 is not an exact match in english & german
+For Query 35645 there are 901 same retrieval results
+For Query 35727 there are 653 same retrieval results
+the query 37026 is not an exact match in english & german
+For Query 37202 there are 711 same retrieval results
+For Query 37294 there are 939 same retrieval results
+For Query 37511 there are 633 same retrieval results
+For Query 37845 there are 526 same retrieval results
+the query 38367 is not an exact match in english & german
+For Query 39228 there are 672 same retrieval results
+
+Out of 17  2 were exact matches to the Original Query and 15 were not exact matches but found the same 1000 results

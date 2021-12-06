@@ -1,0 +1,53 @@
+22 of the 50 queries (=44.0%) have the same top result
+For Query 245 there are 774 same retrieval results
+For Query 891 there are 618 same retrieval results
+For Query 1217 there are 442 same retrieval results
+For Query 1741 there are 789 same retrieval results
+For Query 2405 there are 690 same retrieval results
+For Query 3777 there are 907 same retrieval results
+For Query 4233 there are 734 same retrieval results
+For Query 4767 there are 714 same retrieval results
+For Query 5899 there are 670 same retrieval results
+For Query 6324 there are 593 same retrieval results
+the query 7328 is not an exact match in english & latin
+For Query 8141 there are 613 same retrieval results
+For Query 9125 there are 575 same retrieval results
+the query 9983 is not an exact match in english & latin
+For Query 10637 there are 579 same retrieval results
+For Query 10893 there are 767 same retrieval results
+For Query 11961 there are 910 same retrieval results
+For Query 13280 there are 799 same retrieval results
+For Query 14000 there are 725 same retrieval results
+For Query 14536 there are 700 same retrieval results
+For Query 15349 there are 367 same retrieval results
+For Query 15842 there are 757 same retrieval results
+For Query 18179 there are 870 same retrieval results
+For Query 19262 there are 798 same retrieval results
+For Query 19982 there are 680 same retrieval results
+the query 21083 is not an exact match in english & latin
+For Query 21265 there are 953 same retrieval results
+For Query 21278 there are 893 same retrieval results
+the query 21731 is not an exact match in english & latin
+For Query 22423 there are 631 same retrieval results
+For Query 22698 there are 978 same retrieval results
+For Query 23223 there are 780 same retrieval results
+For Query 23242 there are 576 same retrieval results
+For Query 24081 there are 954 same retrieval results
+For Query 24894 there are 729 same retrieval results
+the query 25733 is not an exact match in english & latin
+For Query 28098 there are 773 same retrieval results
+For Query 30535 there are 525 same retrieval results
+For Query 33367 there are 899 same retrieval results
+For Query 35418 there are 772 same retrieval results
+For Query 35491 there are 958 same retrieval results
+For Query 35645 there are 606 same retrieval results
+the query 35727 is not an exact match in english & latin
+For Query 37026 there are 870 same retrieval results
+For Query 37202 there are 652 same retrieval results
+For Query 37294 there are 834 same retrieval results
+For Query 37511 there are 854 same retrieval results
+For Query 37845 there are 506 same retrieval results
+For Query 38367 there are 806 same retrieval results
+For Query 39228 there are 719 same retrieval results
+
+Out of 6  0 were exact matches to the Original Query and 6 were not exact matches but found the same 1000 results

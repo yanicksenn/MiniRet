@@ -4,12 +4,13 @@ import sys
 def main(argv):
     file1 = 'results/results_original_1638711993787.txt'
     file2 = argv[1]
+    language = file2.split('_')[1]
 
     compare_top_n = 100
     result_original = file_parser(file1)
     result_translated = file_parser(file2)
     compare_first_rank(result_original, result_translated)
-    compare_first_100_ranks(result_original, result_translated)
+    compare_first_100_ranks(result_original, result_translated, 1000, language)
     # Relevant information
     # Query id, Document id, rank
 
@@ -45,19 +46,42 @@ def compare_first_rank(original, translated):
     return counter_first
 
 
-def compare_first_100_ranks(original, translated):
+def compare_first_100_ranks(original, translated, length, language):
     upper_interest_bound = 95
     lower_interest_bound = 40
+    counter_not_exact_match = 0
+    counter_exact_match = 0
+
     queries = original.keys()
     for query in queries:
         counter = 0
-        for rank_original in range(1, 101):
-            for rank_translated in range(1, 101):
+        min_original = min(length, len(original[query]))
+        min_translated = min(length, len(translated[query]))
+
+        for rank_original in range(1, min_original + 1):
+            for rank_translated in range(1, min_translated + 1):
                 if original[query][rank_original] == translated[query][rank_translated]:
                     counter += 1
                     continue
-        if counter <= lower_interest_bound or counter >= upper_interest_bound:
+
+        if counter == min_original or counter == min_translated:
+            with open(f'queries/original/{query}') as query_original:
+                with open(f'queries/{language}/{query}') as query_translated:
+                    content_original = query_original.read(-1)
+                    content_translated = query_translated.read(-1)
+                    if content_translated != content_original:
+                        counter_not_exact_match +=1
+                        print(f'the query {query} is not an exact match in english & {language}')
+                    else:
+                        counter_exact_match += 1
+
+        elif counter <= lower_interest_bound or counter >= upper_interest_bound:
             print(f'For Query {query} there are {counter} same retrieval results')
+
+    total_100er_matches = counter_exact_match + counter_not_exact_match
+    print(f'\nOut of {total_100er_matches}  {counter_exact_match} were exact matches to the Original Query and {counter_not_exact_match} were not exact matches but found the same {length} results')
+
+
 
 
 if __name__ == '__main__':

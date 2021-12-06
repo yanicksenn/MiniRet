@@ -1,0 +1,42 @@
+34 of the 50 queries (=68.0%) have the same top result
+For Query 245 there are 920 same retrieval results
+For Query 1217 there are 868 same retrieval results
+For Query 1741 there are 950 same retrieval results
+the query 3777 is not an exact match in english & norwegian
+For Query 4233 there are 707 same retrieval results
+For Query 5899 there are 689 same retrieval results
+For Query 6324 there are 837 same retrieval results
+the query 7328 is not an exact match in english & norwegian
+For Query 8141 there are 770 same retrieval results
+For Query 9125 there are 704 same retrieval results
+For Query 10637 there are 805 same retrieval results
+For Query 10893 there are 781 same retrieval results
+For Query 13280 there are 602 same retrieval results
+For Query 14000 there are 930 same retrieval results
+For Query 14536 there are 764 same retrieval results
+For Query 15349 there are 863 same retrieval results
+For Query 15842 there are 893 same retrieval results
+For Query 18179 there are 831 same retrieval results
+the query 19262 is not an exact match in english & norwegian
+For Query 19982 there are 522 same retrieval results
+For Query 21083 there are 854 same retrieval results
+For Query 21278 there are 911 same retrieval results
+For Query 22423 there are 644 same retrieval results
+For Query 23223 there are 850 same retrieval results
+For Query 23242 there are 692 same retrieval results
+For Query 24081 there are 715 same retrieval results
+For Query 24894 there are 543 same retrieval results
+the query 25733 is not an exact match in english & norwegian
+For Query 28098 there are 840 same retrieval results
+For Query 30535 there are 885 same retrieval results
+For Query 33367 there are 664 same retrieval results
+For Query 35418 there are 892 same retrieval results
+For Query 35645 there are 901 same retrieval results
+For Query 37202 there are 711 same retrieval results
+For Query 37294 there are 939 same retrieval results
+For Query 37511 there are 505 same retrieval results
+For Query 37845 there are 804 same retrieval results
+the query 38367 is not an exact match in english & norwegian
+For Query 39228 there are 728 same retrieval results
+
+Out of 16  11 were exact matches to the Original Query and 5 were not exact matches but found the same 1000 results
