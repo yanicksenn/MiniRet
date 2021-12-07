@@ -6,14 +6,16 @@ def main(argv):
     file2 = argv[1]
     language = file2.split('_')[1]
 
-    compare_top_n = 100
     result_original = file_parser(file1)
     result_translated = file_parser(file2)
-    compare_first_rank(result_original, result_translated)
-    compare_first_100_ranks(result_original, result_translated, 1000, language)
+
+    information_coverage = determine_information_coverage(result_original, result_translated, 100)
+    print(f'{information_coverage * 100}%')
+
+    # compare_first_rank(result_original, result_translated)
+    # compare_first_100_ranks(result_original, result_translated, 1000, language)
     # Relevant information
     # Query id, Document id, rank
-
 
 
 def file_parser(filename):
@@ -33,6 +35,34 @@ def file_parser(filename):
             result[query_id][rank] = document_id
 
     return result
+
+
+def determine_information_coverage(original, translated, top_n):
+    queries = original.keys()
+    coverage_sum = 0
+    for query in queries:
+        coverage_sum += determine_information_coverage_for_query(original, translated, top_n, query)
+
+    return coverage_sum / len(queries)
+
+
+def determine_information_coverage_for_query(original, translated, top_n, query):
+    rank_original = original[query]
+    rank_translated = translated[query]
+
+    size_original = min(top_n, len(rank_original))
+    size_translated = min(top_n, len(rank_translated))
+
+    matches = 0
+
+    for ro in range(1, size_original + 1):
+        for rt in range(1, size_translated + 1):
+            if rank_original[ro] == rank_translated[rt]:
+                matches += 1
+                break
+
+    return matches / size_original
+
 
 def compare_first_rank(original, translated):
     counter_first = 0
@@ -62,7 +92,7 @@ def compare_first_100_ranks(original, translated, length, language):
             for rank_translated in range(1, min_translated + 1):
                 if original[query][rank_original] == translated[query][rank_translated]:
                     counter += 1
-                    continue
+                    break
 
         if counter == min_original or counter == min_translated:
             with open(f'queries/original/{query}') as query_original:
@@ -80,8 +110,6 @@ def compare_first_100_ranks(original, translated, length, language):
 
     total_100er_matches = counter_exact_match + counter_not_exact_match
     print(f'\nOut of {total_100er_matches}  {counter_exact_match} were exact matches to the Original Query and {counter_not_exact_match} were not exact matches but found the same {length} results')
-
-
 
 
 if __name__ == '__main__':
