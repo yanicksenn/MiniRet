@@ -1,9 +1,18 @@
+Top ALL
 spanish 85.582%
 german 86.394%
 irish 84.434%
 french 83.474%
 latin 76.678%
 norwegian 85.028%
+
+Top 100
+spanish 80.700%
+german 81.880%
+irish 80.640%
+french 80.300%
+latin 62.640%
+norwegian 79.140%
 
 By comparing all ranked docs we could observe an approximation of ~85% of the docs were found again after the translation.
 
